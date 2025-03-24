@@ -81,10 +81,11 @@ Supported Operating Systems:
 - Android OS (for mobile)
 - iOS (for mobile)
 
-Supported Browsers:
+Supported Browsers (cross-browser testing with Selenium):
 - Google Chrome (latest version)
 - Mozilla Firefox (latest version)
 - Safari (latest version)
+- Microsoft Edge
 
 Device Types:
 - Desktop
@@ -109,7 +110,7 @@ Defects will be reported using **JIRA**. The defect reporting procedure is as fo
 Our test strategy involves the following:
 1. **Test Case Creation**: Develop test cases based on the business requirements and technical specifications.
 2. **Smoke Testing**: Perform initial smoke tests to ensure basic functionality is working before detailed testing begins.
-3. **Test Execution**: Execute test cases across multiple environments and devices.
+3. **Test Execution**: Execute test cases across multiple environments and devices using **Selenium** for cross-browser testing.
 4. **Defect Management**: Log and track defects using JIRA. Continuous communication with the development team will be maintained for timely resolution.
 5. **Regression Testing**: Conduct regression testing to ensure that new changes do not break existing functionality.
 6. **Performance and Load Testing**: Conduct stress and load testing to assess how the website handles high traffic.
@@ -163,10 +164,10 @@ The test schedule for the project is as follows:
 ## Tools
 
 The following tools will be used for testing:
+- **Selenium**: For automated cross-browser testing.
 - **JIRA**: For bug tracking and defect management.
-- **Selenium**: For automated testing.
 - **Postman**: For API testing.
-- **BrowserStack**: For cross-browser and cross-device testing.
+- **BrowserStack**: For cross-browser and cross-device testing (integrated with Selenium).
 - **TestRail**: For test case management.
 
 ## Risks and Mitigations
@@ -189,5 +190,4 @@ The following documents will be sent for client approval:
 - Defect Logs
 
 Testing will proceed once these documents have been reviewed and approved by the client.
-
 
