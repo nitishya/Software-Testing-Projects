@@ -10,6 +10,9 @@ This repository contains a list of all the projects completed during my manual t
 
 ## Getting Started
 
+![image](https://github.com/user-attachments/assets/54193e01-f5a4-4b72-9f8f-2a63e892667c)
+
+
 To view the details of each project, simply click on the project name in the table above. The project page will contain a brief description of the project as well as a list of tools used to complete the project.
 
 ### Papa John's Website Testing
